@@ -1,0 +1,19 @@
+{
+  "name": "express_es6",
+  "version": "1.0.0",
+  "description": "boilerplate express dengan babel compiler dan es6",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node server.js"
+  },
+  "author": "fadliselaz",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/node": "^7.12.6",
+    "@babel/preset-env": "^7.12.7",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
